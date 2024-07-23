@@ -1,27 +1,42 @@
-<script>
+document.addEventListener("DOMContentLoaded", function() {
     const products = [
-        { name: "ZAPATO CON RUEDAS", description: "link: https://amzn.to/4eXxEBn", price: "$10" },
-        { name: "Producto 2", description: "Descripción del Producto 2", price: "$20" },
-        { name: "Producto 3", description: "Descripción del Producto 3", price: "$30" },
-        // Añade más productos aquí
+        {
+            title: 'Producto 1',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 2',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        // Agrega más productos según sea necesario
     ];
 
-    function searchProducts() {
-        const query = document.getElementById("search-input").value.toLowerCase();
-        const resultsContainer = document.getElementById("search-results");
-        resultsContainer.innerHTML = "";
+    const productList = document.getElementById('productList');
 
-        const results = products.filter(product => product.name.toLowerCase().includes(query));
-
-        if (results.length > 0) {
-            results.forEach(product => {
-                const resultItem = document.createElement("div");
-                resultItem.className = "result-item";
-                resultItem.innerHTML = `<strong>${product.name}</strong><br>${product.description}<br>${product.price}`;
-                resultsContainer.appendChild(resultItem);
-            });
-        } else {
-            resultsContainer.innerHTML = "<p>No se encontraron productos.</p>";
-        }
+    function displayProducts(filteredProducts) {
+        productList.innerHTML = ''; // Limpiar resultados anteriores
+        filteredProducts.forEach(product => {
+            const productDiv = document.createElement('div');
+            productDiv.classList.add('product');
+            productDiv.innerHTML = `
+                <img src="${product.img}" alt="${product.title}">
+                <a href="${product.link}" target="_blank">${product.title}</a>
+            `;
+            productList.appendChild(productDiv);
+        });
     }
-</script>
+
+    function searchProducts() {
+        const query = document.getElementById('searchInput').value.toLowerCase();
+        const filteredProducts = products.filter(product => product.title.toLowerCase().includes(query));
+        displayProducts(filteredProducts);
+    }
+
+    // Mostrar todos los productos al cargar la página
+    displayProducts(products);
+
+    // Agregar el evento input al campo de búsqueda
+    document.getElementById('searchInput').addEventListener('input', searchProducts);
+});
