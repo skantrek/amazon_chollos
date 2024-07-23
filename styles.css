@@ -26,6 +26,8 @@ body {
 }
 .logo img {
     max-width: 150px;
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    border: 5px solid #ffffff; /* Añadimos un borde blanco para resaltar el logo */
     margin-bottom: 20px;
 }
 .hero h1 {
@@ -118,6 +120,7 @@ body {
         width: 100%;
     }
 }
+
 
 
 
