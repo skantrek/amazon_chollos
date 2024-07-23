@@ -3,32 +3,30 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #000000; /* Fondo negro */
+    color: #ffffff;
 }
 
 .header {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     padding: 50px 20px;
-    background: linear-gradient(135deg, #0073e6, #003366);
-    color: #ffffff;
 }
 
 .hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
+    background-color: #333333; /* Fondo gris para el cuadro */
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px; /* Ajusta el tamaño máximo del cuadro */
 }
 
 .logo img {
     max-width: 150px;
-    border-radius: 50%; /* Hace que la imagen sea circular */
-    border: 5px solid #ffffff; /* Añadimos un borde blanco para resaltar el logo */
+    border-radius: 50%; /* Hacer el logo circular */
+    border: 5px solid #ffffff; /* Borde blanco */
     margin-bottom: 20px;
 }
 
@@ -146,8 +144,4 @@ body {
         width: 100%;
     }
 }
-
-
-
-
 
