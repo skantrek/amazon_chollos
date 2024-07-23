@@ -7,19 +7,28 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <img src="logo.png" alt="Amazon Chollos">
-            </div>
-            <div class="subtitle">Product Reviews + Amazon Finds</div>
-            <div class="description">
-                <p>Este sitio se especializa en reseñas de productos y descubrimientos en Amazon. Ganamos comisiones de afiliado por las compras que califican.</p>
-            </div>
+    <header class="header">
+        <div class="logo">
+            <img src="logo.png" alt="Amazon Chollos">
         </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#reviews">Reseñas</a></li>
+                <li><a href="#finds">Descubrimientos</a></li>
+            </ul>
+        </nav>
     </header>
-    
-    <main>
+    <div class="hero">
+        <h1>Amazon Chollos</h1>
+        <p>Product Reviews + Amazon Finds</p>
+    </div>
+    <div class="container">
+        <div class="description">
+            <p>Este sitio se especializa en reseñas de productos y descubrimientos en Amazon. Ganamos comisiones de afiliado por las compras que califican.</p>
+        </div>
         <div class="search-bar">
             <input type="text" id="searchInput" placeholder="Buscar productos..." />
             <button onclick="searchProducts()">Buscar</button>
@@ -27,18 +36,12 @@
         <div class="product-list" id="productList">
             <!-- Productos irán aquí -->
         </div>
-    </main>
-
-    <footer>
-        <div class="container">
-            <div class="social-media">
-                <a href="https://www.facebook.com/tuPagina" target="_blank">Facebook</a>
-                <a href="https://www.twitter.com/tuPagina" target="_blank">Twitter</a>
-                <a href="https://www.instagram.com/amazon_chollos_" target="_blank">Instagram</a>
-            </div>
+        <div class="social-media">
+            <a href="https://www.facebook.com/tuPagina" target="_blank">Facebook</a>
+            <a href="https://www.twitter.com/tuPagina" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com/amazon_chollos_" target="_blank">Instagram</a>
         </div>
-    </footer>
-
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
