@@ -1,5 +1,44 @@
-<div id="search-container">
-    <input type="text" id="search-input" placeholder="Buscar productos...">
-    <button id="search-button" onclick="searchProducts()">Buscar</button>
-    <div id="search-results"></div>
-</div>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Chollos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Amazon Chollos">
+            </div>
+            <div class="subtitle">Product Reviews + Amazon Finds</div>
+            <div class="description">
+                <p>Este sitio se especializa en reseñas de productos y descubrimientos en Amazon. Ganamos comisiones de afiliado por las compras que califican.</p>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Buscar productos..." />
+            <button onclick="searchProducts()">Buscar</button>
+        </div>
+        <div class="product-list" id="productList">
+            <!-- Productos irán aquí -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="social-media">
+                <a href="https://www.facebook.com/tuPagina" target="_blank">Facebook</a>
+                <a href="https://www.twitter.com/tuPagina" target="_blank">Twitter</a>
+                <a href="https://www.instagram.com/amazon_chollos_" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
