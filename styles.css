@@ -48,6 +48,17 @@ body {
     color: #bbbbbb;
 }
 
+.hero-text .affiliate-note {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #cccccc;
+    background-color: #000000; /* Fondo negro */
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 1200px; /* Ajusta el tamaño máximo del cuadro */
+    margin: 20px auto;
+}
+
 .search-bar {
     margin-top: 20px;
     display: flex;
@@ -81,20 +92,6 @@ body {
     border-radius: 10px;
     max-width: 1200px; /* Ajusta el tamaño máximo del cuadro */
     margin: 20px auto;
-}
-
-.hero-footer {
-    background-color: #333333; /* Fondo gris para el cuadro */
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 1200px; /* Ajusta el tamaño máximo del cuadro */
-    margin: 20px auto;
-}
-
-.hero-footer p {
-    margin: 0;
-    font-size: 1em;
-    color: #bbbbbb;
 }
 
 .product-list {
