@@ -7,22 +7,24 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="header">
-        <div class="hero">
-            <div class="logo">
-                <img src="logo.png" alt="Amazon Chollos">
-            </div>
-            <h1>Amazon Chollos</h1>
-            <p>Product Reviews + Amazon Finds</p>
-        </div>
-    </header>
     <div class="container">
-        <div class="description">
-            <p>Este sitio se especializa en reseñas de productos y descubrimientos en Amazon. Ganamos comisiones de afiliado por las compras que califican.</p>
+        <div class="header">
+            <div class="hero">
+                <div class="logo">
+                    <img src="logo.png" alt="Amazon Chollos">
+                </div>
+                <div class="hero-text">
+                    <h1>Amazon Chollos</h1>
+                    <p>Product Reviews + Amazon Finds</p>
+                </div>
+            </div>
         </div>
         <div class="search-bar">
-            <input type="text" id="searchInput" placeholder="Buscar productos..." />
-            <button onclick="searchProducts()">Buscar</button>
+            <input type="text" id="searchInput" placeholder="Search..." />
+            <button onclick="searchProducts()">Search</button>
+        </div>
+        <div class="description">
+            <p>All products in videos.</p>
         </div>
         <div class="product-list" id="productList">
             <!-- Productos irán aquí -->
@@ -36,4 +38,5 @@
     <script src="script.js"></script>
 </body>
 </html>
+
 
