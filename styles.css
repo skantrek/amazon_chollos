@@ -76,11 +76,25 @@ body {
     margin: 20px 0;
     font-size: 1.2em;
     color: #cccccc;
-    background-color: #333333; /* Fondo gris */
+    background-color: #000000; /* Fondo negro */
     padding: 10px;
     border-radius: 10px;
     max-width: 1200px; /* Ajusta el tamaño máximo del cuadro */
     margin: 20px auto;
+}
+
+.hero-footer {
+    background-color: #333333; /* Fondo gris para el cuadro */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1200px; /* Ajusta el tamaño máximo del cuadro */
+    margin: 20px auto;
+}
+
+.hero-footer p {
+    margin: 0;
+    font-size: 1em;
+    color: #bbbbbb;
 }
 
 .product-list {
@@ -161,6 +175,7 @@ body {
         height: auto;
     }
 }
+
 
 
 
