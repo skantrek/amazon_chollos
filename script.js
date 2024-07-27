@@ -1,168 +1,111 @@
-/* General Styles */
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-image: url('fondo_transparente.png'); /* Imagen de fondo con transparencia */
-    background-color: #0a0a23; /* Color de fondo en caso de que la imagen no se cargue */
-    color: #333;
-}
+document.addEventListener("DOMContentLoaded", function() {
+    const products = [
+        {
+            title: 'Producto 1',
+            img: 'https://m.media-amazon.com/images/I/81x-v9WvdiL._AC_SX695_.jpg',
+            link: 'https://amzn.to/4ffbWJ6'
+        },
+        {
+            title: 'Producto 2',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 3',
+            img: 'https://m.media-amazon.com/images/I/71Klre6fo2L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 4',
+            img: 'https://images-na.ssl-images-amazon.com/images/I/71Klre6fo2L._AC_UL127_SR127,127_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 5',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 6',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 7',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 8',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 9',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 10',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 11',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 12',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 13',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 14',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 15',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        
+        // Agrega más productos según sea necesario
+    ];
 
-.header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 20px;
-}
+    const productList = document.getElementById('productList');
 
-.hero {
-    background-image: url('cuadro_transparente.png'); /* Imagen de fondo con transparencia */
-    background-color: #232f3e; /* Color de fondo en caso de que la imagen no se cargue */
-    padding: 40px;
-    border-radius: 10px;
-    text-align: center;
-    width: 100%;
-    max-width: 1200px; /* Ajusta el tamaño máximo del cuadro */
-}
-
-.logo img {
-    max-width: 150px;
-    border-radius: 50%; /* Hacer el logo circular */
-    border: 5px solid #f3f4f6; /* Borde blanco */
-    margin-bottom: 20px;
-}
-
-.hero h1 {
-    font-size: 3em;
-    margin: 0;
-    color: #ff9900; /* Color amarillo */
-}
-
-.hero p {
-    font-size: 1.2em;
-    margin: 10px 0 0;
-    color: #ffffff;
-}
-
-.affiliate-text {
-    color: #d1d5db; /* Color gris claro */
-}
-
-.container {
-    padding: 20px;
-    text-align: center;
-}
-
-.intro-text p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-    color: #ffffff; /* Color blanco */
-}
-
-.search-bar {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-.search-bar input {
-    padding: 10px;
-    border-radius: 5px 0 0 5px;
-    border: 1px solid #ff9900;
-    width: 250px;
-    font-size: 1em;
-}
-
-.search-bar button {
-    padding: 10px;
-    border-radius: 0 5px 5px 0;
-    border: 1px solid #ff9900;
-    background-color: #ff9900;
-    color: #ffffff;
-    cursor: pointer;
-    font-size: 1em;
-}
-
-.product-list {
-    margin-top: 40px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 columnas en computadoras */
-    gap: 5px; /* Espacio reducido entre productos */
-    padding: 0 5px; /* Ajustar el padding para los productos */
-}
-
-.product {
-    border: 5px solid #0a0a23; /* Cambiar el color del borde al color del fondo */
-    border-radius: 20px; /* Redondear bordes */
-    background-color: #ffffff; /* Color de fondo blanco */
-    transition: transform 0.2s;
-    margin: 0; /* Eliminar margen */
-}
-
-.product:hover {
-    transform: translateY(-5px);
-    box-shadow: none; /* Eliminar sombra al hacer hover */
-}
-
-.product img {
-    width: 100%;
-    height: 200px; /* Altura fija */
-    object-fit: contain; /* Ajusta la imagen sin recortar */
-    border-radius: 20px; /* Redondear bordes */
-    background-color: #ffffff; /* Fondo blanco */
-    box-shadow: none; /* Eliminar sombra */
-    border: none; /* Eliminar borde */
-}
-
-.product a {
-    color: #0a0a23; /* Cambiar color del texto a negro azulado */
-    text-decoration: none;
-    display: block;
-    margin-top: 10px;
-    font-weight: bold;
-}
-
-.product a:hover {
-    text-decoration: underline;
-}
-
-.social-media {
-    margin-top: 20px;
-}
-
-.social-media a {
-    margin: 0 10px;
-    color: #ff9900;
-    font-size: 1.5em;
-}
-
-.social-media a:hover {
-    color: #d1d5db;
-}
-
-/* Media Queries */
-@media (max-width: 1200px) {
-    .product-list {
-        grid-template-columns: repeat(3, 1fr); /* 3 columnas en pantallas más pequeñas */
-    }
-}
-
-@media (max-width: 900px) {
-    .product-list {
-        grid-template-columns: repeat(3, 1fr); /* 3 columnas en dispositivos móviles */
+    function displayProducts(filteredProducts) {
+        productList.innerHTML = ''; // Limpiar resultados anteriores
+        filteredProducts.forEach(product => {
+            const productDiv = document.createElement('div');
+            productDiv.classList.add('product');
+            productDiv.innerHTML = `
+                <a href="${product.link}" target="_blank">
+                    <img src="${product.img}" alt="${product.title}">
+                </a>
+                <a href="${product.link}" target="_blank">${product.title}</a>
+            `;
+            productList.appendChild(productDiv);
+        });
     }
 
-    .product img {
-        height: 150px; /* Ajustar altura de la imagen */
-    }
-}
-
-@media (max-width: 600px) {
-    .product-list {
-        grid-template-columns: repeat(2, 1fr); /* 2 columnas en dispositivos móviles más pequeñas */
+    function searchProducts() {
+        const query = document.getElementById('searchInput').value.toLowerCase();
+        const filteredProducts = products.filter(product => product.title.toLowerCase().includes(query));
+        displayProducts(filteredProducts);
     }
 
-    .product img {
-        height: 120px; /* Reducir altura de la imagen */
-    }
-}
+    // Mostrar todos los productos al cargar la página
+    displayProducts(products);
+
+    // Agregar el evento input al campo de búsqueda
+    document.getElementById('searchInput').addEventListener('input', searchProducts);
+});
+
