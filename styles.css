@@ -3,13 +3,9 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000000; /* Fondo negro */
-    color: #ffffff;
-}
-
-.container {
-    padding: 20px;
-    text-align: center;
+    background-image: url('fondo_transparente.png'); /* Imagen de fondo con transparencia */
+    background-color: #0a0a23; /* Color de fondo en caso de que la imagen no se cargue */
+    color: #333;
 }
 
 .header {
@@ -20,43 +16,47 @@ body {
 }
 
 .hero {
-    background-color: #333333; /* Fondo gris para el cuadro */
+    background-image: url('cuadro_transparente.png'); /* Imagen de fondo con transparencia */
+    background-color: #232f3e; /* Color de fondo en caso de que la imagen no se cargue */
     padding: 40px;
     border-radius: 10px;
     text-align: center;
     width: 100%;
     max-width: 1200px; /* Ajusta el tamaño máximo del cuadro */
-    margin: 0 auto; /* Centra el cuadro */
 }
 
 .logo img {
     max-width: 150px;
     border-radius: 50%; /* Hacer el logo circular */
-    border: 5px solid #ffffff; /* Borde blanco */
+    border: 5px solid #f3f4f6; /* Borde blanco */
     margin-bottom: 20px;
 }
 
-.hero-text h1 {
+.hero h1 {
     font-size: 3em;
     margin: 0;
+    color: #ff9900; /* Color amarillo */
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
     color: #ffffff;
 }
 
-.hero-text p {
-    font-size: 1.2em;
-    margin: 10px 0 0;
-    color: #bbbbbb;
+.affiliate-text {
+    color: #d1d5db; /* Color gris claro */
 }
 
-.hero-text .affiliate-note {
-    margin-top: 20px;
-    font-size: 0.9em;
-    color: #cccccc;
-    background-color: #000000; /* Fondo negro */
-    padding: 10px;
-    border-radius: 10px;
-    max-width: 1200px; /* Ajusta el tamaño máximo del cuadro */
-    margin: 20px auto;
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+.intro-text p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #ffffff; /* Color blanco */
 }
 
 .search-bar {
@@ -68,7 +68,7 @@ body {
 .search-bar input {
     padding: 10px;
     border-radius: 5px 0 0 5px;
-    border: 1px solid #0073e6;
+    border: 1px solid #ff9900;
     width: 250px;
     font-size: 1em;
 }
@@ -76,53 +76,46 @@ body {
 .search-bar button {
     padding: 10px;
     border-radius: 0 5px 5px 0;
-    border: 1px solid #0073e6;
-    background-color: #0073e6;
+    border: 1px solid #ff9900;
+    background-color: #ff9900;
     color: #ffffff;
     cursor: pointer;
     font-size: 1em;
 }
 
-.description {
-    margin: 20px 0;
-    font-size: 1.2em;
-    color: #cccccc;
-    background-color: #000000; /* Fondo negro */
-    padding: 10px;
-    border-radius: 10px;
-    max-width: 1200px; /* Ajusta el tamaño máximo del cuadro */
-    margin: 20px auto;
-}
-
 .product-list {
     margin-top: 40px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 columnas */
-    gap: 20px; /* Espacio entre productos */
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas en computadoras */
+    gap: 5px; /* Espacio reducido entre productos */
+    padding: 0 5px; /* Ajustar el padding para los productos */
 }
 
 .product {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 10px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    transition: transform 0.2s, box-shadow 0.2s;
+    border: 5px solid #0a0a23; /* Cambiar el color del borde al color del fondo */
+    border-radius: 20px; /* Redondear bordes */
+    background-color: #ffffff; /* Color de fondo blanco */
+    transition: transform 0.2s;
+    margin: 0; /* Eliminar margen */
 }
 
 .product:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    box-shadow: none; /* Eliminar sombra al hacer hover */
 }
 
 .product img {
     width: 100%;
-    height: auto; /* Ajusta la altura proporcionalmente */
-    border-radius: 8px;
+    height: 200px; /* Altura fija */
+    object-fit: contain; /* Ajusta la imagen sin recortar */
+    border-radius: 20px; /* Redondear bordes */
+    background-color: #ffffff; /* Fondo blanco */
+    box-shadow: none; /* Eliminar sombra */
+    border: none; /* Eliminar borde */
 }
 
 .product a {
-    color: #0073e6;
+    color: #0a0a23; /* Cambiar color del texto a negro azulado */
     text-decoration: none;
     display: block;
     margin-top: 10px;
@@ -139,12 +132,12 @@ body {
 
 .social-media a {
     margin: 0 10px;
-    color: #0073e6;
-    text-decoration: none;
+    color: #ff9900;
+    font-size: 1.5em;
 }
 
 .social-media a:hover {
-    text-decoration: underline;
+    color: #d1d5db;
 }
 
 /* Media Queries */
@@ -156,22 +149,24 @@ body {
 
 @media (max-width: 900px) {
     .product-list {
-        grid-template-columns: repeat(2, 1fr); /* 2 columnas en pantallas más pequeñas */
+        grid-template-columns: repeat(3, 1fr); /* 3 columnas en dispositivos móviles */
+    }
+
+    .product img {
+        height: 150px; /* Ajustar altura de la imagen */
     }
 }
 
 @media (max-width: 600px) {
     .product-list {
-        grid-template-columns: repeat(1, 1fr); /* 1 columna en pantallas móviles */
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas en dispositivos móviles más pequeñas */
+    }
+
+    .product img {
+        height: 120px; /* Reducir altura de la imagen */
     }
 }
 
-@media (max-width: 480px) {
-    .product img {
-        width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor en pantallas muy pequeñas */
-        height: auto;
-    }
-}
 
 
 
