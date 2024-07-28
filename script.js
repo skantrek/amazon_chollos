@@ -26,9 +26,9 @@ document.addEventListener("DOMContentLoaded", function() {
             link: 'https://amzn.to/4c1C2MT'
         },
         {
-            title: 'Producto 6',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
+            title: 'Picture Frame Safe',
+            img: 'https://m.media-amazon.com/images/I/81eXR8H3+WL._AC_SL1500_.jpg',
+            link: 'https://amzn.to/4cXu20N'
         },
         {
             title: 'Producto 7',
