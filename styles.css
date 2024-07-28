@@ -16,7 +16,7 @@ body {
 
 .hero {
     background-color: rgba(35, 47, 62, 0.8); /* Fondo azul oscuro con opacidad */
-    background-image: url('https://example.com/your-image-url.jpg'); /* Reemplaza con la URL de tu imagen */
+    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/857/67/desktop-wallpaper-blue-bubble-backgrounds-blue-bubble-background.jpg'); /* Reemplaza con la URL de tu imagen */
     background-size: cover;
     background-blend-mode: darken; /* Mezcla la imagen de fondo con el color de fondo */
     padding: 40px;
@@ -167,4 +167,3 @@ body {
         height: 120px; /* Reducir altura de la imagen */
     }
 }
-
