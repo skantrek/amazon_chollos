@@ -1,19 +1,19 @@
 document.addEventListener("DOMContentLoaded", function() {
     const products = [
         {
-            title: 'Producto 1',
-            img: 'https://m.media-amazon.com/images/I/81x-v9WvdiL._AC_SX695_.jpg',
-            link: 'https://amzn.to/4ffbWJ6'
+            title: 'Tissue Box Safe',
+            img: 'https://m.media-amazon.com/images/I/817rynJ+XzL._AC_SL1500_.jpg',
+            link: 'https://amzn.to/3Wmp7z9'
         },
         {
-            title: 'Producto 2',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
+            title: 'Hidden Package Bush',
+            img: 'https://m.media-amazon.com/images/I/41lFWhl2KOL._AC_.jpg',
+            link: 'https://amzn.to/4cWqn3d'
         },
         {
-            title: 'Producto 3',
-            img: 'https://m.media-amazon.com/images/I/71Klre6fo2L._AC_SY695_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
+            title: 'Invisible Cabinet Lock',
+            img: 'https://m.media-amazon.com/images/I/61iwaWorWlL._AC_SL1000_.jpg',
+            link: 'https://amzn.to/4c1LqjI'
         },
         {
             title: 'Producto 4',
