@@ -3,8 +3,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('https://news.microsoft.com/wp-content/uploads/prod/sites/41/2021/11/Windows-11-Bloom-Screensaver-Dark-1600x900-1.jpg'); /* Imagen de fondo en formato JPG */
-    background-color: #0a0a23; /* Color de fondo en caso de que la imagen no se cargue */
+    background-color: #0a0a23; /* Fondo negro azulado más oscuro */
     color: #333;
 }
 
@@ -16,31 +15,15 @@ body {
 }
 
 .hero {
-    background-image: url('https://news.microsoft.com/wp-content/uploads/prod/sites/41/2021/11/6n5-theme-pack.png-1024x683-1.jpg'); /* Imagen de fondo en formato JPG */
-    background-color: #232f3e; /* Color de fondo en caso de que la imagen no se cargue */
+    background-color: rgba(35, 47, 62, 0.8); /* Fondo azul oscuro con opacidad */
+    background-image: url('https://example.com/your-image-url.jpg'); /* Reemplaza con la URL de tu imagen */
+    background-size: cover;
+    background-blend-mode: darken; /* Mezcla la imagen de fondo con el color de fondo */
     padding: 40px;
     border-radius: 10px;
     text-align: center;
     width: 100%;
     max-width: 1200px; /* Ajusta el tamaño máximo del cuadro */
-    position: relative;
-}
-
-.hero::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(35, 47, 62, 0.95); /* Color de fondo con mayor opacidad */
-    border-radius: 10px;
-    z-index: 0;
-}
-
-.logo {
-    position: relative;
-    z-index: 1;
 }
 
 .logo img {
@@ -48,11 +31,6 @@ body {
     border-radius: 50%; /* Hacer el logo circular */
     border: 5px solid #f3f4f6; /* Borde blanco */
     margin-bottom: 20px;
-}
-
-.hero h1, .hero p, .affiliate-text, .social-media {
-    position: relative;
-    z-index: 1;
 }
 
 .hero h1 {
@@ -189,5 +167,4 @@ body {
         height: 120px; /* Reducir altura de la imagen */
     }
 }
-
 
