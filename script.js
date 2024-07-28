@@ -16,9 +16,9 @@ document.addEventListener("DOMContentLoaded", function() {
             link: 'https://amzn.to/4c1LqjI'
         },
         {
-            title: 'Producto 4',
-            img: 'https://images-na.ssl-images-amazon.com/images/I/71Klre6fo2L._AC_UL127_SR127,127_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
+            title: 'Fake Light Bulb',
+            img: 'https://m.media-amazon.com/images/I/51V-JIHJbYL._AC_.jpg',
+            link: 'https://amzn.to/4dg2BPk'
         },
         {
             title: 'Producto 5',
