@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
         {
             title: 'Hidden Drawer',
             img: 'https://m.media-amazon.com/images/I/51e-9KXxKdL._AC_SL1052_.jpg',
-            link: 'https://amzn.to/4c1C2MT
+            link: 'https://amzn.to/4c1C2MT'
         {
             title: 'Producto 6',
             img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
