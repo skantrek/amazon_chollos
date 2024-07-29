@@ -31,14 +31,14 @@ document.addEventListener("DOMContentLoaded", function() {
             link: 'https://amzn.to/4cXu20N'
         },
         {
-            title: 'Producto 7',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
+            title: 'Govee Curtain Lights',
+            img: 'https://m.media-amazon.com/images/I/81MMHdCWb0L._AC_SL1500_.jpg',
+            link: 'https://amzn.to/4cZyVGC'
         },
         {
-            title: 'Producto 8',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
+            title: 'Narwal Freo X Ultra',
+            img: 'https://m.media-amazon.com/images/I/61BZUKgzTuL._AC_SL1500_.jpg',
+            link: 'https://amzn.to/3Yodb2C'
         },
         {
             title: 'Producto 9',
