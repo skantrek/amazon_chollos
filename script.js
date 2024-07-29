@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const products = [
         {
             title: 'Tissue Box Safe',
-            img: 'https://m.media-amazon.com/images/I/817rynJ+XzL._AC_SL1500_.jpg',
+            img: 'https://m.media-amazon.com/images/I/71dQ7jhp4kL._AC_SL1500_.jpg',
             link: 'https://amzn.to/3Wmp7z9'
         },
         {
@@ -41,14 +41,14 @@ document.addEventListener("DOMContentLoaded", function() {
             link: 'https://amzn.to/3Yodb2C'
         },
         {
-            title: 'Producto 9',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
+            title: 'Eureka Rapid Wash',
+            img: 'https://m.media-amazon.com/images/I/61T6jN9AYrL._AC_SL1500_.jpg',
+            link: 'https://amzn.to/3Stp4k1'
         },
         {
-            title: 'Producto 10',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
+            title: 'Turf Pee Pad For Dogs',
+            img: 'https://m.media-amazon.com/images/I/71FM21Q6hBL._AC_SL1500_.jpg',
+            link: 'https://amzn.to/3Sr0W1y'
         },
         {
             title: 'Producto 11',
