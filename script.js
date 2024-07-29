@@ -51,13 +51,13 @@ document.addEventListener("DOMContentLoaded", function() {
             link: 'https://amzn.to/3Sr0W1y'
         },
         {
-            title: 'Producto 11',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
+            title: 'Bath Glove For Pet',
+            img: 'https://m.media-amazon.com/images/I/71U1ddkAPyL._AC_SL1500_.jpg',
+            link: 'https://amzn.to/3y6DDDj'
         },
         {
             title: 'Producto 12',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            img: 'https://m.media-amazon.com/images/I/71U1ddkAPyL._AC_SL1500_.jpg',
             link: 'https://amzn.to/4bUKeP4'
         },
         {
