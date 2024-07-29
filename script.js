@@ -56,14 +56,14 @@ document.addEventListener("DOMContentLoaded", function() {
             link: 'https://amzn.to/3y6DDDj'
         },
         {
-            title: 'Producto 12',
-            img: 'https://m.media-amazon.com/images/I/71U1ddkAPyL._AC_SL1500_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
+            title: 'Dual Untangle Leash',
+            img: 'https://m.media-amazon.com/images/I/71oi6yhkEzL._AC_SL1500_.jpg',
+            link: 'https://amzn.to/4d38lfA'
         },
         {
-            title: 'Producto 13',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
+            title: 'Suction Tug Toy',
+            img: 'https://m.media-amazon.com/images/I/71WT4A1M21L._AC_SL1500_.jpg',
+            link: 'https://amzn.to/3ygw64Q'
         },
         {
             title: 'Producto 14',
