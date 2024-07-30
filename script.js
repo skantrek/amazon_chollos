@@ -151,6 +151,66 @@ document.addEventListener("DOMContentLoaded", function() {
             link: 'https://amzn.to/46oRb9S'
         },
         {
+            title: 'Microwave Pasta Maker',
+            img: 'https://m.media-amazon.com/images/I/81G1AHpRXML._AC_SL1500_.jpg',
+            link: 'https://amzn.to/4fqtDWk'
+        },
+        {
+            title: 'Chicken Shredder',
+            img: 'https://m.media-amazon.com/images/I/614QR0feY2L._AC_SL1500_.jpg',
+            link: 'https://amzn.to/3A0cnXr'
+        },
+        {
+            title: 'Wine Wash',
+            img: 'https://m.media-amazon.com/images/I/71VXSAaDgZL._AC_SL1500_.jpg',
+            link: 'https://amzn.to/46sXt8c'
+        },
+        {
+            title: 'Bottle Opener',
+            img: 'https://m.media-amazon.com/images/I/61j2ECTpK3L._AC_SL1500_.jpg',
+            link: 'https://amzn.to/4c4YnJe'
+        },
+        {
+            title: 'Oven Liners',
+            img: 'https://m.media-amazon.com/images/I/71k+G+WDC8L._AC_SL1500_.jpg',
+            link: 'https://amzn.to/3A4qr2e'
+        },
+        {
+            title: 'Cleaning Tablets',
+            img: 'https://m.media-amazon.com/images/I/810nT55bC1L._AC_SL1500_.jpg',
+            link: 'https://amzn.to/46sXJnG'
+        },
+        {
+            title: 'Producto 14wrewer',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 15',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 14qr',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 15qwqw',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 14wrewer',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 15',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
             title: 'Producto 14qr',
             img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
             link: 'https://amzn.to/4bUKeP4'
