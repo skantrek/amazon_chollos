@@ -66,7 +66,97 @@ document.addEventListener("DOMContentLoaded", function() {
             link: 'https://amzn.to/3ygw64Q'
         },
         {
-            title: 'Producto 14',
+            title: 'Nail Trimmer',
+            img: 'https://m.media-amazon.com/images/I/717UALT1oLL._AC_SL1500_.jpg',
+            link: 'https://amzn.to/3Ynz6qy'
+        },
+        {
+            title: 'Outdoor Dog Tent',
+            img: 'https://m.media-amazon.com/images/I/71bW8NxIICS._AC_SL1500_.jpg',
+            link: 'https://amzn.to/3WEorqh'
+        },
+        {
+            title: 'Furbo 360 Pet Camera',
+            img: 'https://m.media-amazon.com/images/I/61LRvAXMi7L._AC_SL1500_.jpg',
+            link: 'https://amzn.to/4dn5vlg'
+        },
+        {
+            title: 'Human Dog Bed',
+            img: 'https://m.media-amazon.com/images/I/91gRfhnC3-L._AC_SL1500_.jpg',
+            link: 'https://amzn.to/4cYCmNJ'
+        },
+        {
+            title: 'Producto 14qr',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 15qwqw',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 14wrewer',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 15',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 14qr',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 15qwqw',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 14wrewer',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 15',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 14qr',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 15qwqw',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 14wrewer',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 15',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 14qr',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 15qwqw',
+            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
+            link: 'https://amzn.to/4bUKeP4'
+        },
+        {
+            title: 'Producto 14wrewer',
             img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
             link: 'https://amzn.to/4bUKeP4'
         },
