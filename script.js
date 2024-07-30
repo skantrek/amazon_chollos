@@ -86,64 +86,69 @@ document.addEventListener("DOMContentLoaded", function() {
             link: 'https://amzn.to/4cYCmNJ'
         },
         {
-            title: 'Producto 14qr',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
+            title: 'Self Rolling Ball',
+            img: 'https://m.media-amazon.com/images/I/61F403FcokL._AC_SL1500_.jpg',
+            link: 'https://amzn.to/3LI4yIu'
         },
         {
-            title: 'Producto 15qwqw',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
+            title: 'Paw Cleaner',
+            img: 'https://m.media-amazon.com/images/I/71D2Vym14XL._AC_SL1500_.jpg',
+            link: 'https://amzn.to/4do2P72'
         },
         {
-            title: 'Producto 14wrewer',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
+            title: 'Trolley Leash',
+            img: 'https://m.media-amazon.com/images/I/81ELn-Y4nqL._AC_SL1500_.jpg',
+            link: 'https://amzn.to/3A5Jfyg'
         },
         {
-            title: 'Producto 15',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
+            title: 'Butter Cutter',
+            img: 'https://m.media-amazon.com/images/I/41cFoI4NOdL._AC_SL1000_.jpg',
+            link: 'https://amzn.to/46qX8D4'
         },
         {
-            title: 'Producto 14qr',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
+            title: 'Bottle Magnets',
+            img: 'https://m.media-amazon.com/images/I/81jhdcGAtwL._SL1500_.jpg',
+            link: 'https://amzn.to/3A4MplT'
         },
         {
-            title: 'Producto 15qwqw',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
+            title: 'Strawberry Pitter',
+            img: 'https://m.media-amazon.com/images/I/61a1Lc+g+TL._AC_SL1500_.jpg',
+            link: 'https://amzn.to/3AdHCOP'
+        },
+         {
+            title: 'Rhinoshield Water Bottle',
+            img: 'https://m.media-amazon.com/images/I/61hHpofKSWL._AC_SL1500_.jpg',
+            link: 'https://amzn.to/4dqvE2V'
         },
         {
-            title: 'Producto 14wrewer',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
+            title: 'Rice Dispenser',
+            img: 'https://m.media-amazon.com/images/I/51X8CRLzOLL._AC_SL1500_.jpg',
+            link: 'https://amzn.to/4dk5nTO'
         },
         {
-            title: 'Producto 15',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
+            title: 'Fruit Washer',
+            img: 'https://m.media-amazon.com/images/I/71TI3vvEm8L._AC_SL1500_.jpg',
+            link: 'https://amzn.to/3A6xaJ5'
         },
         {
-            title: 'Producto 14qr',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
+            title: 'Metal Ice Cubes',
+            img: 'https://m.media-amazon.com/images/I/718up+MnEYL._AC_SL1500_.jpg',
+            link: 'https://amzn.to/3SuBZ5k'
         },
         {
-            title: 'Producto 15qwqw',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
+            title: 'Paper Towel Holder',
+            img: 'https://m.media-amazon.com/images/I/71K8LOWTPBL._AC_SL1500_.jpg',
+            link: 'https://amzn.to/3SsnY8a'
         },
         {
-            title: 'Producto 14wrewer',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
+            title: 'Cute Rabbit Bowl',
+            img: 'https://m.media-amazon.com/images/I/51k3YuuPZXL._AC_SL1000_.jpg',
+            link: 'https://amzn.to/3SxH0tN'
         },
         {
-            title: 'Producto 15',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
+            title: 'Electric Can Opener',
+            img: 'https://m.media-amazon.com/images/I/61eqNRPW8mL._AC_SL1500_.jpg',
+            link: 'https://amzn.to/46oRb9S'
         },
         {
             title: 'Producto 14qr',
