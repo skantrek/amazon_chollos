@@ -1,6 +1,11 @@
 document.addEventListener("DOMContentLoaded", function() {
     const products = [
         {
+            title: 'Personal Shopping Cart',
+            img: 'https://m.media-amazon.com/images/I/71rlPd2-wZL._AC_SL1500_.jpg',
+            link: 'https://amzn.to/4dqLcDO'
+        },
+        {
             title: 'Tissue Box Safe',
             img: 'https://m.media-amazon.com/images/I/71dQ7jhp4kL._AC_SL1500_.jpg',
             link: 'https://amzn.to/3Wmp7z9'
