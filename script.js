@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
         {
             title: 'Music Boxing Machine',
             img: 'https://m.media-amazon.com/images/I/81t9jcTVYPL._AC_SL1500_.jpg',
-            link: 'https://amzn.to/47rybYF'
+            link: 'https://amzn.to/3Xppvh6'
         },
         {
             title: 'Personal Shopping Cart',
