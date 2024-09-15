@@ -1,6 +1,11 @@
 document.addEventListener("DOMContentLoaded", function() {
     const products = [
         {
+            title: 'Music Boxing Machine',
+            img: 'https://m.media-amazon.com/images/I/81t9jcTVYPL._AC_SL1500_.jpg',
+            link: 'https://amzn.to/47rybYF'
+        },
+        {
             title: 'Personal Shopping Cart',
             img: 'https://m.media-amazon.com/images/I/71rlPd2-wZL._AC_SL1500_.jpg',
             link: 'https://amzn.to/4dqLcDO'
