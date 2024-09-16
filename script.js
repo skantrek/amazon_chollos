@@ -190,56 +190,7 @@ document.addEventListener("DOMContentLoaded", function() {
             img: 'https://m.media-amazon.com/images/I/810nT55bC1L._AC_SL1500_.jpg',
             link: 'https://amzn.to/46sXJnG'
         },
-        {
-            title: 'Producto 14wrewer',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
-        },
-        {
-            title: 'Producto 15',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
-        },
-        {
-            title: 'Producto 14qr',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
-        },
-        {
-            title: 'Producto 15qwqw',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
-        },
-        {
-            title: 'Producto 14wrewer',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
-        },
-        {
-            title: 'Producto 15',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
-        },
-        {
-            title: 'Producto 14qr',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
-        },
-        {
-            title: 'Producto 15qwqw',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
-        },
-        {
-            title: 'Producto 14wrewer',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
-        },
-        {
-            title: 'Producto 15',
-            img: 'https://m.media-amazon.com/images/I/61dHymGI3-L._AC_SY695_.jpg',
-            link: 'https://amzn.to/4bUKeP4'
-        },
+        
         // Agrega más productos según sea necesario
     ];
 
